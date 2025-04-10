@@ -79,29 +79,39 @@ main{
 .rainbowQ2{color:#f3b3cb !important;}
 
 #appNavbar{
-    background-color: #02fdc7;
+    background-color: rgba(6, 42, 92, 0.75);
+}
+
+.nav-link{
+    color: #ffffff !important;
+}
+
+.nav-link.active{
+    font-weight: bolder !important;
+}
+
+.starLogo{
+    max-height: 40px;
+    width: auto;
+    display: block;
 }
 
 section{
     transition: 1s;
-    border-radius: 5rem !important;
+    border-radius: 1rem !important;
 }
 
 .highlight{
-    background-color: rgba(200, 160, 255, 0.4);
+    background-color: rgba(255, 255, 255, 0.069);
 }
 
 h2{
     color: white !important;
-    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7), 
-               -2px -2px 0 rgba(0, 0, 0, 0.7),
-               2px -2px 0 rgba(0, 0, 0, 0.7),
-               -2px 2px 0 rgba(0, 0, 0, 0.7);
 }
 
 hr{
     color: white !important;
     border: none;
-    height: 3px;
+    height: 8px;
     background-color: white;
 }
