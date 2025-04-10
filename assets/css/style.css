@@ -1,0 +1,107 @@
+
+body{
+    margin: 0px;
+    background-image: url(https://images8.alphacoders.com/736/736059.png);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main{
+    padding-top: 100px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 200px);
+    justify-content: center;
+    gap: 10px;
+    row-gap: 10px;
+}
+
+.custom-card {
+    min-width: 200px !important;
+    min-height: 200px !important;
+    max-height: 320px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.5) !important;
+}
+
+.img-wrapper {
+    min-height: 160px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img-sprite{
+    max-width: 128px;
+    max-height: 160px;
+    width: auto;
+    height: auto;
+    display: block;
+}
+
+.linkCustom{
+    text-decoration: none;
+}
+
+.linkCustom:hover {
+    text-decoration: underline;
+    font-weight: normal !important;
+}
+
+/* Estilos de personajes. */
+.steven{color: #ffb2a2 !important;}
+.ruby{color: #e44a60 !important;}
+.sapphire{color: #6990ed !important;}
+.garnet{color: #b24b5e !important;}
+.pearl{color:#f8f5e2 !important;}
+.amethyst{color:#b898ca !important;}
+.peridot{color:#8eee69 !important;}
+.lapis{color:#43d7f5 !important;}
+.jasper{color:#fc9c52 !important;}
+.bismuth{color:#91a9cf !important;}
+.spinel{color:#f9b1e1 !important;}
+.roseQ{color:#fbdfdc !important;}
+.pinkD{color:#efa4c2 !important;}
+.yellowD{color:#fff46a !important;}
+.blueD{color:#0fcafd !important;}
+.whiteD{color:#ffffff !important;}
+.opal{color:#d9daf8 !important;}
+.rainbowQ{color:#bc88b6 !important;}
+.malachite{color:#02fdc7 !important;}
+.smokyQ{color:#8a757e !important;}
+.rainbowQ2{color:#f3b3cb !important;}
+.sugilite{color:#ba88dd !important;}
+.sardonyx{color:#b73f6c !important;}
+.sunstone{color:#f0954e !important;}
+.rainbowQ2{color:#f3b3cb !important;}
+
+#appNavbar{
+    background-color: #02fdc7;
+}
+
+section{
+    transition: 1s;
+    border-radius: 5rem !important;
+}
+
+.highlight{
+    background-color: rgba(200, 160, 255, 0.4);
+}
+
+h2{
+    color: white !important;
+    text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.7), 
+               -2px -2px 0 rgba(0, 0, 0, 0.7),
+               2px -2px 0 rgba(0, 0, 0, 0.7),
+               -2px 2px 0 rgba(0, 0, 0, 0.7);
+}
+
+hr{
+    color: white !important;
+    border: none;
+    height: 3px;
+    background-color: white;
+}
